@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FoodDelivery.User
 {
-    public partial class Delete_From_Cart : System.Web.UI.Page
+    public partial class Restaurant : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

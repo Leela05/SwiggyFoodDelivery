@@ -91,12 +91,11 @@
     <Content Include="Templates\js\bootstrap.js" />
     <Content Include="Templates\js\custom.js" />
     <Content Include="Templates\js\jquery-3.4.1.min.js" />
-    <Content Include="User\Add to cart.aspx" />
     <Content Include="User\Cart.aspx" />
     <Content Include="User\default.aspx" />
-    <Content Include="User\Delete From Cart.aspx" />
     <Content Include="User\Login.aspx" />
     <Content Include="User\register.aspx" />
+    <Content Include="User\Restaurant.aspx" />
     <Content Include="User\SlideUserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -105,13 +104,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\Add to cart.aspx.cs">
-      <DependentUpon>Add to cart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Add to cart.aspx.designer.cs">
-      <DependentUpon>Add to cart.aspx</DependentUpon>
-    </Compile>
     <Compile Include="User\Cart.aspx.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,13 +117,6 @@
     </Compile>
     <Compile Include="User\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\Delete From Cart.aspx.cs">
-      <DependentUpon>Delete From Cart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Delete From Cart.aspx.designer.cs">
-      <DependentUpon>Delete From Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Home.Master.cs">
       <DependentUpon>Home.Master</DependentUpon>
@@ -153,6 +138,13 @@
     </Compile>
     <Compile Include="User\register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Restaurant.aspx.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Restaurant.aspx.designer.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\SlideUserControl.ascx.cs">
       <DependentUpon>SlideUserControl.ascx</DependentUpon>

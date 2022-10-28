@@ -11,7 +11,7 @@ namespace FoodDelivery.User
 {
 
 
-    public partial class Add_to_cart
+    public partial class Restaurant
     {
     }
 }
